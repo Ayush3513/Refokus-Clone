@@ -10,7 +10,7 @@ function Card({width,start,para,hover="false",title="insight and behind the scen
             <div className="">
             <div className="flex items-center justify-between ">
                 <h4>Up Next:News</h4>
-                    <MdOutlineArrowRightAlt />
+                    <MdOutlineArrowRightAlt color='white' size='1.5vw'/>
             </div>
             <h1 className='text-[2vw] w-[18vw] mt-5 leading-none font-semibold'>{title}</h1>
             </div>

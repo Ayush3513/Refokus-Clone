@@ -6,7 +6,7 @@ function Product({val,mover,count}) {
 
 
     return ( 
-        <motion.div whileHover={{backgroundColor: "#2C2C2C",height:"23rem"}} onMouseEnter={()=>{mover(count)}}  className="w-full h-[23rem] pr-[10vw] flex items-center justify-between px-20">
+        <motion.div whileHover={{backgroundColor: "#2C2C2C",height:"23rem" }} onMouseEnter={()=>{mover(count)}}  className="w-full h-[23rem] pr-[10vw] flex items-center justify-between px-20">
             
                 <h1 className='text-[3.5vw] '>{val.title}</h1>
                 <div className='w-1/4' >
