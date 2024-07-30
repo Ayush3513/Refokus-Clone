@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: sat;
+    src: url(./assets/649d7ca1f5c7aa41f51eb483_satoshi-variable.ttf);
+}
+
+
+h1,span,h4,p,a,button{
+    color: white;
+}
+.react-icons {
+    color: black;
+  }
+
