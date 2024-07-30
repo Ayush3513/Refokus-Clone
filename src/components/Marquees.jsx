@@ -30,7 +30,7 @@ function Marquees() {
     ]
 
     return ( 
-        <div className="w-full flex flex-col gap-10 my-40 ">
+        <div className="w-full flex flex-col gap-10 my-[14vw] ">
             {links.map((item,i) => <Marquee key={i} links={item} direction={ i === 0 ? "left" : "right"} />)}
         </div>
      );
