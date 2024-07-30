@@ -10,7 +10,7 @@ function Stripe() {
     ]
     
     return (  
-        <div className='h-[5vw] mb-20 w-fit mt-10 justify-center items-center  flex'>
+        <div className='h-[5vw] mb-20 w-fit mt-32  justify-center items-center  flex'>
            {
             data.map((elem,i) => i === 0 ? (
                 <div key={i} className="w-[16.66vw] h-full border-l-none border-[.5px] border-zinc-600 flex items-center justify-between px-10">
